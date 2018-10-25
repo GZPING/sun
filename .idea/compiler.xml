@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basethread" />
+        <module name="cache" />
+        <module name="mybatis" />
+        <module name="thread" />
+        <module name="tranational" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basethread" target="1.8" />
+      <module name="cache" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="thread" target="1.8" />
+      <module name="tranational" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
