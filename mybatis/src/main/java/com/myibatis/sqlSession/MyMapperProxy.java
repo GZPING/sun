@@ -21,16 +21,16 @@ import java.util.List;
 public class MyMapperProxy implements InvocationHandler {
     private  MySqlSession mySqlsession;
 
-    private MyConfiguration myConfiguration;
+    private Configuration configuration;
 
-    public MyMapperProxy(MyConfiguration myConfiguration,MySqlSession mySqlsession) {
-        this.myConfiguration=myConfiguration;
+    public MyMapperProxy(Configuration configuration, MySqlSession mySqlsession) {
+        this.configuration = configuration;
         this.mySqlsession=mySqlsession;
     }
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        MapperBean readMapper = myConfiguration.readMapper("UserMapper.xml");
+        MapperBean readMapper = configuration.readMapper("UserMapper.xml");
         //是否是xml文件对应的接口
         if(!method.getDeclaringClass().getName().equals(readMapper.getInterfaceName())){
             return null;

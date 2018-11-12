@@ -27,9 +27,11 @@ import java.util.List;
  * @Since 1.0V
  */
 
-public class MyConfiguration {
+public class Configuration {
 
     private static ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+
+    private DataSource dataSource;
 
     public Connection build(String resource){
         try {
@@ -123,5 +125,13 @@ public class MyConfiguration {
             e.printStackTrace();
         }
         return mapper;
+    }
+
+    public DataSource getDataSource() {
+        return dataSource;
+    }
+
+    public void setDataSource(DataSource dataSource) {
+        this.dataSource = dataSource;
     }
 }

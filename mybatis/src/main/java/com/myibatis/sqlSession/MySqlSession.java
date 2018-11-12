@@ -20,7 +20,7 @@ public class MySqlSession {
 
     private Excutor excutor= new MyExcutor();
 
-    private MyConfiguration myConfiguration = new MyConfiguration();
+    private Configuration configuration = new Configuration();
 
     public <T> T selectOne(String statement,Object parameter){
         return excutor.query(statement, parameter);
@@ -30,6 +30,6 @@ public class MySqlSession {
     public <T> T getMapper(Class<T> clas){
         //动态代理调用
         return (T) Proxy.newProxyInstance(clas.getClassLoader(),new Class[]{clas},
-                new MyMapperProxy(myConfiguration,this));
+                new MyMapperProxy(configuration,this));
     }
 }
