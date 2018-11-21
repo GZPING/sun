@@ -3,6 +3,9 @@
 
 <mapper namespace="com.mybatis.mapper.OrderMapper">
     <select id="getAllOrder" resultType="com.mybatis.model.Order">
-        select * from orders limit 0 ,10
+        select * from orders limit #{page,jdbcType=INTEGER} ,#{size,jdbcType=INTEGER}
+    </select>
+    <select id="selectOrderById" resultType="com.mybatis.model.Order">
+        select * from orders where id = ?
     </select>
 </mapper>

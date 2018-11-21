@@ -1,4 +1,4 @@
-package com.myibatis.sqlSession;
+package com.mt.sqlSession;
 
 /**
  * Created by GD on 2018/10/23.

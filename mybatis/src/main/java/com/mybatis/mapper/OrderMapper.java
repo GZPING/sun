@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface OrderMapper {
 
-    List<Order> getAllOrder();
+    List<Order> getAllOrder(@Param("page") Integer page ,@Param("size") Integer size);
 
      @Delete({
         "delete from orders",
@@ -58,4 +58,5 @@ public interface OrderMapper {
     BigDecimal selectTotalMoneyByUserId(@Param("userId") Integer userId);
 
 
+    Order selectOrderById(Integer s);
 }

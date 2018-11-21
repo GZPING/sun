@@ -26,7 +26,7 @@ public class MybatisApplicationTests {
 		SqlSession sqlSession = sqlSessionFactory.openSession();
 		try {
 			OrderMapper orderMapper = sqlSession.getMapper(OrderMapper.class);
-			List<Order> orders = orderMapper.getAllOrder();
+			List<Order> orders = orderMapper.getAllOrder(0,1);
 			for (Order order : orders){
 				System.out.println(order);
 			}

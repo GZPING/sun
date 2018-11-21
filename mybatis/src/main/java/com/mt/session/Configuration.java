@@ -1,4 +1,4 @@
-package com.myibatis.sqlSession;
+package com.mt.session;
 
 /**
  * Created by GD on 2018/10/23.
@@ -6,6 +6,9 @@ package com.myibatis.sqlSession;
  * GitHub: https://github.com/GZPING
  */
 
+import com.mt.datasource.UnPooledDataSource;
+import com.mt.sqlSession.Function;
+import com.mt.sqlSession.MapperBean;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -31,7 +34,8 @@ public class Configuration {
 
     private static ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 
-    private DataSource dataSource;
+    private UnPooledDataSource dataSource;
+
 
     public Connection build(String resource){
         try {
@@ -46,7 +50,7 @@ public class Configuration {
     }
 
     private Connection getDatasourceConn(Element node) throws ClassNotFoundException {
-        if (!node.getName().equals("database")) {
+        if (!node.getName().equals("datasource")) {
             throw new RuntimeException("root should be <database>");
         }
         String driverClassName = null;
@@ -59,15 +63,15 @@ public class Configuration {
             String value = getValue(i);
             String name = i.attributeValue("name");
             if (name == null || value == null) {
-                throw new RuntimeException("[database]: <property> should contain name and value");
+                throw new RuntimeException("[datasource]: <property> should contain name and value");
             }
             //赋值
             switch (name) {
                 case "url" : url = value; break;
                 case "username" : username = value; break;
                 case "password" : password = value; break;
-                case "driverClassName" : driverClassName = value; break;
-                default : throw new RuntimeException("[database]: <property> unknown name");
+                case "driver" : driverClassName = value; break;
+                default : throw new RuntimeException("[datasource]: <property> unknown name");
             }
         }
         Class.forName(driverClassName);
@@ -87,14 +91,14 @@ public class Configuration {
     }
 
     @SuppressWarnings("rawtypes")
-    public  MapperBean readMapper(String resource){
+    public MapperBean readMapper(String resource){
         MapperBean mapper = new MapperBean();
         try{
             InputStream stream = classLoader.getResourceAsStream(resource);
             SAXReader reader = new SAXReader();
             Document document = reader.read(stream);
             Element root = document.getRootElement();
-            mapper.setInterfaceName(root.attributeValue("nameSpace").trim()); //把mapper节点的nameSpace值存为接口名
+            mapper.setInterfaceName(root.attributeValue("namespace").trim()); //把mapper节点的nameSpace值存为接口名
             List<Function> list = new ArrayList<Function>(); //用来存储方法的List
             for(Iterator rootIter = root.elementIterator(); rootIter.hasNext();) {//遍历根节点下所有子节点
                 Function fun = new Function();    //用来存储一条方法的信息
@@ -127,11 +131,11 @@ public class Configuration {
         return mapper;
     }
 
-    public DataSource getDataSource() {
+    public UnPooledDataSource getDataSource() {
         return dataSource;
     }
 
-    public void setDataSource(DataSource dataSource) {
+    public void setDataSource(UnPooledDataSource dataSource) {
         this.dataSource = dataSource;
     }
 }
