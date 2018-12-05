@@ -57,6 +57,5 @@ public interface OrderMapper {
     })
     BigDecimal selectTotalMoneyByUserId(@Param("userId") Integer userId);
 
-
     Order selectOrderById(Integer s);
 }

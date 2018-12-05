@@ -2,8 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
 <mapper namespace="com.mybatis.mapper.OrderMapper">
+    <sql id="allcol">
+        id,user,money
+    </sql>
     <select id="getAllOrder" resultType="com.mybatis.model.Order">
-        select * from orders limit #{page,jdbcType=INTEGER} ,#{size,jdbcType=INTEGER}
+        select <include refid="allcol"></include>
+        from orders limit #{page,jdbcType=INTEGER} ,#{size,jdbcType=INTEGER}
     </select>
     <select id="selectOrderById" resultType="com.mybatis.model.Order">
         select * from orders where id = ?
