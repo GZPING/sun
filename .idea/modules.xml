@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/basethread/basethread.iml" filepath="$PROJECT_DIR$/basethread/basethread.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thread.iml" filepath="$PROJECT_DIR$/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myladder.iml" filepath="$PROJECT_DIR$/myladder.iml" />
       <module fileurl="file://$PROJECT_DIR$/tranational/tranational.iml" filepath="$PROJECT_DIR$/tranational/tranational.iml" />
     </modules>
   </component>
