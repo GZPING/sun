@@ -17,9 +17,9 @@ import java.util.Set;
  * @Version 1.0V
  */
 
-public class QuickSort {
+public class QuickSort implements Sort{
 
-    public static int position(int[] arr,int left,int right){
+    private static int position(int[] arr,int left,int right){
         // 存储基准值
         int key = arr[left];
         while(left<right){
@@ -37,7 +37,14 @@ public class QuickSort {
         return left;
     }
 
-    public static int[] sort(int[] arr,int left,int right){
+    /**
+     *  快速排序
+     * @param arr
+     * @param left
+     * @param right
+     * @return
+     */
+    private int[] sort(int[] arr,int left,int right){
         if(left>=right){
             return arr;
         }
@@ -45,18 +52,10 @@ public class QuickSort {
         sort(arr,left,index-1);
         sort(arr,index+1,right);
         return arr;
-
-
-
     }
 
-    public static void main(String[] args) {
-        int[] arr = {2,3,5,1,10,2,5,2,56,0};
-        QuickSort.sort(arr,0,arr.length-1);
-        for (int i=0;i<arr.length;i++){
-            System.out.print(arr[i] + "  ");
-        }
-
+    @Override
+    public void sort(int[] a) {
+        sort(a,0,a.length-1);
     }
-
 }
