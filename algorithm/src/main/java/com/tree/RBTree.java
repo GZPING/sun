@@ -19,6 +19,16 @@ public class RBTree<T extends Comparable> {
 
     private static final boolean RED = false;
     private static final boolean BLACK = true;
+
+    private void put(RBTNode<T> node){
+
+    }
+
+    public void put(T key){
+        RBTNode node = new RBTNode(true,key,null,null,null);
+        put(node);
+    }
+
     /*
      * 对红黑树的节点(x)进行左旋转
      *
@@ -103,6 +113,45 @@ public class RBTree<T extends Comparable> {
             this.right = right;
             this.parent = parent;
         }
+    }
+
+    /**
+     * //前序遍历递归的方式
+     * @param node
+     */
+    public void preOrder(RBTNode<T> node){
+        if(node == null){
+            return ;
+        }
+        System.out.println(node);
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+    /**
+     * //中序遍历采用递归的方式
+     * @param node
+     */
+    public void inOrder(RBTNode<T> node){
+        if(node == null){
+            return ;
+        }
+        inOrder(node.left);
+        System.out.println(node);
+        inOrder(node.right);
+    }
+
+    /**
+     * //后序遍历采用递归的方式
+     * @param node
+     */
+    public void postOrder(RBTNode<T> node){
+        if(node == null){
+            return ;
+        }
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.println(node);
     }
 
 }
