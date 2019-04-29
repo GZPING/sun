@@ -15,7 +15,7 @@ package com.patterns.template;
 public class Dnf extends Game {
     @Override
     protected void gameing() {
-        System.out.println("Dnf over");
+        System.out.println("Dnf gameing");
     }
 
     @Override
@@ -25,6 +25,6 @@ public class Dnf extends Game {
 
     @Override
     protected void init() {
-        System.out.println("Dnf over");
+        System.out.println("Dnf init");
     }
 }
