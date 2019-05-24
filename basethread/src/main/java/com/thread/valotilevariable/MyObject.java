@@ -27,12 +27,13 @@ public class MyObject {
 
     //volatile public static int count = 0;
 
-     public void Method1(int count) {
+     public void Method1() {
+
         for (int j = 0; j < 10000; j++) {
-            count++;
+            i++;
         }
         System.out.println("begin thread threadName = "
-                + Thread.currentThread().getName() + "count=" + count);
+                + Thread.currentThread().getName() + "count=" + i);
     }
 
     public int getI() {

@@ -6,8 +6,6 @@ package com.thread.valotilevariable;
  * GitHub: https://github.com/GZPING
  */
 
-import com.thread.sycmethod.MyThreadB;
-
 /**
  *
  * @Description
@@ -16,22 +14,22 @@ import com.thread.sycmethod.MyThreadB;
  * @Since 1.0V
  */
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
-        MyObject myObject = new MyObject();
-        MyThread[] myThreads = new MyThread[100];
-        for (int i = 0; i <100; i++) {
-            myThreads[i] = new MyThread(myObject,i + "");
+        Object o = new Object();
+        int count = 50;
+        Thread[] arr = new Thread[count];
+        for (int i = 0; i <count; i++) {
+            arr[i] = new Thread1(o);
         }
-        for (int i = 0; i < 100; i++) {
-            myThreads[i].start();
+        for (int i = 0; i < count; i++) {
+            arr[i].start();
         }
         try {
             Thread.sleep(5000L);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(myObject.getI());
     }
 
 

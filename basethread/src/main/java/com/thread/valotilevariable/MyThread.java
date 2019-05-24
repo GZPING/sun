@@ -20,7 +20,6 @@ public class MyThread extends Thread{
     /**
      * volatile 每次从共享内存中读取变量，而不是私有变量
      */
-    volatile public static int count = 0;
     public MyThread(MyObject myObject) {
         super();
         this.myObject = myObject;
@@ -32,10 +31,6 @@ public class MyThread extends Thread{
 
     @Override
     public void run() {
-        for (int j = 0; j < 10000; j++) {
-            count++;
-        }
-        System.out.println("begin thread threadName = "
-                + Thread.currentThread().getName() + "count=" + count);
+        myObject.Method1();
     }
 }
