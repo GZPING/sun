@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.thread</groupId>
-	<artifactId>thread</artifactId>
+	<groupId>com.study</groupId>
+	<artifactId>ladder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -16,6 +16,7 @@
         <module>algorithm</module>
 		<module>cache</module>
 		<module>mybatis</module>
+        <module>jvm</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
