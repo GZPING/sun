@@ -4,14 +4,11 @@ package java8;
  * Created by GD on 2019/8/22.
  */
 
-import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import org.junit.Test;
 
 /**
  *

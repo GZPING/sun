@@ -4,7 +4,7 @@ package java8;
  * Created by GD on 2019/8/22.
  */
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Optional;
 
