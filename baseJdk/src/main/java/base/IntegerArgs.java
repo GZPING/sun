@@ -1,5 +1,8 @@
 package base;
 
+import org.junit.Test;
+import org.springframework.util.StringUtils;
+
 import java.lang.reflect.Field;
 
 /**
@@ -29,4 +32,16 @@ public class IntegerArgs {
         valueField.set(b,tmpA);
     }
 
+
+    @Test
+    public void temp() {
+        double fansCount = 1000;
+        String fans= "200";
+        double areaFans1 = Double.valueOf(StringUtils.isEmpty(fans) ? "0" : fans);
+        System.out.println(areaFans1);
+        System.out.println(areaFans1/fansCount);
+
+        System.out.println(String.format("%.2f",0.99954*100));;
+        System.out.println(String.format("%.2f",Double.valueOf("0.99954")*100));;
+    }
 }
