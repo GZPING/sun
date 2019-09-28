@@ -1,9 +1,9 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_01D5764F.DCE27420"
+Content-Type: multipart/related; boundary="----=_NextPart_01D57650.4CCF4150"
 
 此文档为“单个文件网页”，也称为“Web 档案”文件。如果您看到此消息，但是您的浏览器或编辑器不支持“Web 档案”文件。请下载支持“Web 档案”的浏览器。
 
-------=_NextPart_01D5764F.DCE27420
+------=_NextPart_01D57650.4CCF4150
 Content-Location: file:///C:/38FF8D53/file1955.htm
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/html; charset="gb2312"
@@ -32,17 +32,17 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>郭志平</o:Author>
   <o:LastAuthor>郭 志平</o:LastAuthor>
-  <o:Revision>81</o:Revision>
-  <o:TotalTime>44526</o:TotalTime>
+  <o:Revision>82</o:Revision>
+  <o:TotalTime>44529</o:TotalTime>
   <o:LastPrinted>2019-05-22T12:32:00Z</o:LastPrinted>
   <o:Created>2018-04-01T04:25:00Z</o:Created>
-  <o:LastSaved>2019-09-28T14:55:00Z</o:LastSaved>
+  <o:LastSaved>2019-09-28T14:58:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
-  <o:Words>539</o:Words>
+  <o:Words>540</o:Words>
   <o:Characters>3078</o:Characters>
   <o:Lines>25</o:Lines>
   <o:Paragraphs>7</o:Paragraphs>
-  <o:CharactersWithSpaces>3610</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>3611</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -55,6 +55,7 @@ l">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -2554,6 +2555,9 @@ span.gray3
 	{mso-style-name:gray3;
 	mso-style-unhide:no;
 	color:#999999;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -3121,8 +3125,8 @@ ite'> </span><span
 '>2</span><span
       style=3D'mso-ascii-font-family:"microsoft yahei";mso-hansi-font-famil=
 y:
-      "microsoft yahei";color:white'>年工作经验</span><span style=3D'font-s=
-ize:9.0pt;
+      "microsoft yahei";color:white'>年半工作经验</span><span style=3D'font=
+-size:9.0pt;
       font-family:"microsoft yahei",serif;color:white'> <span lang=3DEN-US>=
 <o:p></o:p></span></span></p>
       </td>
@@ -3422,7 +3426,7 @@ nt-size:
  0cm 0cm'>
         <p class=3DMsoNormal style=3D'line-height:18.0pt;word-break:break-a=
 ll'><span
-        lang=3DEN-US style=3D'font-size:9.0pt;color:#333333'>15K<o:p></o:p>=
+        lang=3DEN-US style=3D'font-size:9.0pt;color:#333333'>18K<o:p></o:p>=
 </span></p>
         </td>
        </tr>
@@ -3660,16 +3664,21 @@ cm 0cm'>
 -size:
       9.0pt;mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"=
 microsoft yahei";
-      color:#666666'>熟悉</span><span lang=3DEN-US style=3D'font-size:9.0pt;
-      font-family:"microsoft yahei",serif;color:#666666'>SpringBoot, Sping,=
- SpringMVC,
-      MyBatis, Shiro</span><span style=3D'font-size:9.0pt;mso-ascii-font-fa=
-mily:
-      "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#6666=
-66'>等框架</span><span
+      color:#666666'>熟悉</span><span class=3DSpellE><span lang=3DEN-US
+      style=3D'font-size:9.0pt;font-family:"microsoft yahei",serif;color:#6=
+66666'>SpringBoot</span></span><span
       lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahei",s=
 erif;
-      color:#666666'><o:p></o:p></span></p>
+      color:#666666'>, <span class=3DSpellE>Sping</span>, <span class=3DSpe=
+llE>SpringMVC</span>,
+      <span class=3DSpellE>MyBatis</span>, Shiro</span><span style=3D'font-=
+size:
+      9.0pt;mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"=
+microsoft yahei";
+      color:#666666'>等框架</span><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+      font-family:"microsoft yahei",serif;color:#666666'><o:p></o:p></span>=
+</p>
       </td>
       <td width=3D1 valign=3Dtop style=3D'width:1.0pt;padding:0cm 0cm 0cm 0=
 cm'>
@@ -3704,16 +3713,19 @@ cm 0cm'>
 -size:
       9.0pt;mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"=
 microsoft yahei";
-      color:#666666'>熟悉</span><span lang=3DEN-US style=3D'font-size:9.0pt;
-      font-family:"microsoft yahei",serif;color:#666666'>thymeleaf, Angular=
-JS, Jquery,
-      boostrap</span><span style=3D'font-size:9.0pt;mso-ascii-font-family:"=
-microsoft yahei";
-      mso-hansi-font-family:"microsoft yahei";color:#666666'>等前段框架</sp=
-an><span
+      color:#666666'>熟悉</span><span class=3DSpellE><span lang=3DEN-US
+      style=3D'font-size:9.0pt;font-family:"microsoft yahei",serif;color:#6=
+66666'>thymeleaf</span></span><span
       lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahei",s=
 erif;
-      color:#666666'><o:p></o:p></span></p>
+      color:#666666'>, AngularJS, <span class=3DSpellE>Jquery</span>, <span
+      class=3DSpellE>boostrap</span></span><span style=3D'font-size:9.0pt;
+      mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"micros=
+oft yahei";
+      color:#666666'>等前段框架</span><span lang=3DEN-US style=3D'font-size=
+:9.0pt;
+      font-family:"microsoft yahei",serif;color:#666666'><o:p></o:p></span>=
+</p>
       </td>
       <td width=3D1 valign=3Dtop style=3D'width:1.0pt;padding:0cm 0cm 0cm 0=
 cm'>
@@ -3730,9 +3742,11 @@ erif;
       style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
       mso-hansi-font-family:"microsoft yahei";color:#666666'>熟悉</span><sp=
 an
-      lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahei",s=
-erif;
-      color:#666666'>SpringCloud<o:p></o:p></span></p>
+      class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-famil=
+y:"microsoft yahei",serif;
+      color:#666666'>SpringCloud</span></span><span lang=3DEN-US
+      style=3D'font-size:9.0pt;font-family:"microsoft yahei",serif;color:#6=
+66666'><o:p></o:p></span></p>
       </td>
      </tr>
      <tr style=3D'mso-yfti-irow:3;mso-yfti-lastrow:yes'>
@@ -4039,8 +4053,9 @@ i",serif;
 -all'><span
           style=3D'font-size:9.0pt;font-family:黑体;color:#333333'>曾在部门=
 进行<span
-          lang=3DEN-US>Mybatis </span>源码浅析技术分享。<span lang=3DEN-US>=
-<o:p></o:p></span></span></p>
+          class=3DSpellE><span lang=3DEN-US>Mybatis</span></span><span lang=
+=3DEN-US> </span>源码浅析技术分享。<span
+          lang=3DEN-US><o:p></o:p></span></span></p>
           <p class=3DMsoNormal style=3D'line-height:18.0pt;word-break:break=
 -all'><span
           style=3D'font-size:9.0pt;font-family:黑体;color:#333333'>曾获得优=
@@ -4647,15 +4662,17 @@ i",serif;
 cii-font-family:
           "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
 333333'>，</span><span
-          lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
-i",serif;
-          color:#333333'>thymeleaf</span><span style=3D'font-size:9.0pt;
-          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
-crosoft yahei";
-          color:#333333'>，</span><span lang=3DEN-US style=3D'font-size:9.0=
-pt;
-          font-family:"microsoft yahei",serif;color:#333333'>angularJS</spa=
-n><span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>thymeleaf</span></span><sp=
+an
+          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，</span><=
+span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>angularJS</span></span><sp=
+an
           style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
           mso-hansi-font-family:"microsoft yahei";color:#333333'>等。</span=
 ><span
@@ -4774,15 +4791,16 @@ icrosoft yahei";
           style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
           mso-hansi-font-family:"microsoft yahei";color:#333333'>后台核心代=
 码及前端部分模块开发，</span><span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>CodeReview</span></span><s=
+pan
+          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，保证项目=
+开发的规范。</span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
-          color:#333333'>CodeReview</span><span style=3D'font-size:9.0pt;
-          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
-crosoft yahei";
-          color:#333333'>，保证项目开发的规范。</span><span lang=3DEN-US st=
-yle=3D'font-size:
-          9.0pt;font-family:"microsoft yahei",serif;color:#333333'><o:p></o=
-:p></span></p>
+          color:#333333'><o:p></o:p></span></p>
           <p class=3DMsoListParagraph style=3D'margin-left:18.0pt;text-inde=
 nt:-18.0pt;
           mso-char-indent-count:0;line-height:18.0pt;mso-list:l0 level1 lfo=
@@ -5022,15 +5040,17 @@ i",serif;
 ii-font-family:
           "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
 333333'>，</span><span
-          lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
-i",serif;
-          color:#333333'>thymeleaf</span><span style=3D'font-size:9.0pt;
-          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
-crosoft yahei";
-          color:#333333'>，</span><span lang=3DEN-US style=3D'font-size:9.0=
-pt;
-          font-family:"microsoft yahei",serif;color:#333333'>angularJS</spa=
-n><span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>thymeleaf</span></span><sp=
+an
+          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，</span><=
+span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>angularJS</span></span><sp=
+an
           style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
           mso-hansi-font-family:"microsoft yahei";color:#333333'>等。</span=
 ><span
@@ -5107,16 +5127,16 @@ bsp;&nbsp;&nbsp;
           </span></span></span><![endif]><span style=3D'font-size:9.0pt;
           mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
 crosoft yahei";
-          color:#333333'>方案及原型界面设计（</span><span lang=3DEN-US styl=
-e=3D'font-size:
-          9.0pt;font-family:"microsoft yahei",serif;color:#333333'>axure</s=
-pan><span
-          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
-          mso-hansi-font-family:"microsoft yahei";color:#333333'>）。</span=
-><span
-          lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
-i",serif;
-          color:#333333'><o:p></o:p></span></p>
+          color:#333333'>方案及原型界面设计（</span><span class=3DSpellE><s=
+pan lang=3DEN-US
+          style=3D'font-size:9.0pt;font-family:"microsoft yahei",serif;
+          color:#333333'>axure</span></span><span style=3D'font-size:9.0pt;
+          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
+crosoft yahei";
+          color:#333333'>）。</span><span lang=3DEN-US style=3D'font-size:9=
+.0pt;
+          font-family:"microsoft yahei",serif;color:#333333'><o:p></o:p></s=
+pan></p>
           <p class=3DMsoListParagraph style=3D'margin-left:18.0pt;text-inde=
 nt:-18.0pt;
           mso-char-indent-count:0;line-height:18.0pt;mso-list:l4 level1 lfo=
@@ -5203,23 +5223,27 @@ bsp;&nbsp;&nbsp;
           </span></span></span><![endif]><span style=3D'font-size:9.0pt;
           mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
 crosoft yahei";
-          color:#333333'>上线部署，线上环境搭建，包括</span><span lang=3DEN=
--US
-          style=3D'font-size:9.0pt;font-family:"microsoft yahei",serif;
-          color:#333333'>jdk</span><span style=3D'font-size:9.0pt;mso-ascii=
--font-family:
-          "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
-333333'>，</span><span
+          color:#333333'>上线部署，线上环境搭建，包括</span><span class=3DS=
+pellE><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
-          color:#333333'>tomcat</span><span style=3D'font-size:9.0pt;mso-as=
-cii-font-family:
-          "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
-333333'>，</span><span
+          color:#333333'>jdk</span></span><span style=3D'font-size:9.0pt;
+          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
+crosoft yahei";
+          color:#333333'>，</span><span lang=3DEN-US style=3D'font-size:9.0=
+pt;
+          font-family:"microsoft yahei",serif;color:#333333'>tomcat</span><=
+span
+          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，</span><=
+span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>nginx</span></span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
-          color:#333333'>nginx </span><span style=3D'font-size:9.0pt;mso-as=
-cii-font-family:
+          color:#333333'> </span><span style=3D'font-size:9.0pt;mso-ascii-f=
+ont-family:
           "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
 333333'>等安装及应用程序部署。</span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
@@ -5304,17 +5328,17 @@ font-family:
 333333'>生命周期管理系统。核心功能包括</span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
-          color:#333333'>IP checkin/checkout</span><span style=3D'font-size=
-:9.0pt;
-          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
-crosoft yahei";
-          color:#333333'>，及数据包的上传下载；</span><span lang=3DEN-US st=
-yle=3D'font-size:
-          9.0pt;font-family:"microsoft yahei",serif;color:#333333'>IP </spa=
-n><span
+          color:#333333'>IP <span class=3DSpellE>checkin</span>/checkout</s=
+pan><span
           style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
-          mso-hansi-font-family:"microsoft yahei";color:#333333'>数据</span=
-><span
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，及数据包=
+的上传下载；</span><span
+          lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
+i",serif;
+          color:#333333'>IP </span><span style=3D'font-size:9.0pt;mso-ascii=
+-font-family:
+          "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
+333333'>数据</span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
           color:#333333'>Bug </span><span style=3D'font-size:9.0pt;mso-asci=
@@ -5348,15 +5372,19 @@ i",serif;
 ii-font-family:
           "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
 333333'>，</span><span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>BootStrap</span></span><sp=
+an
+          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，</span><=
+span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>JQuery</span></span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
-          color:#333333'>BootStrap</span><span style=3D'font-size:9.0pt;
-          mso-ascii-font-family:"microsoft yahei";mso-hansi-font-family:"mi=
-crosoft yahei";
-          color:#333333'>，</span><span lang=3DEN-US style=3D'font-size:9.0=
-pt;
-          font-family:"microsoft yahei",serif;color:#333333'>JQuery<o:p></o=
-:p></span></p>
+          color:#333333'><o:p></o:p></span></p>
           <p class=3DMsoNormal style=3D'line-height:18.0pt;word-break:break=
 -all'><span
           style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
@@ -5368,9 +5396,12 @@ i",serif;
 scii-font-family:
           "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
 333333'>，</span><span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>NavCat</span></span><span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
-          color:#333333'>NavCat<o:p></o:p></span></p>
+          color:#333333'><o:p></o:p></span></p>
           </td>
          </tr>
         </table>
@@ -5468,12 +5499,12 @@ icrosoft yahei";
           style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
           mso-hansi-font-family:"microsoft yahei";color:#333333'>项目上线部=
 署：通过配置</span><span
-          lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
-i",serif;
-          color:#333333'>nginx</span><span style=3D'font-size:9.0pt;mso-asc=
-ii-font-family:
-          "microsoft yahei";mso-hansi-font-family:"microsoft yahei";color:#=
-333333'>，</span><span
+          class=3DSpellE><span lang=3DEN-US style=3D'font-size:9.0pt;font-f=
+amily:
+          "microsoft yahei",serif;color:#333333'>nginx</span></span><span
+          style=3D'font-size:9.0pt;mso-ascii-font-family:"microsoft yahei";
+          mso-hansi-font-family:"microsoft yahei";color:#333333'>，</span><=
+span
           lang=3DEN-US style=3D'font-size:9.0pt;font-family:"microsoft yahe=
 i",serif;
           color:#333333'>tomcat</span><span style=3D'font-size:9.0pt;mso-as=
@@ -6067,7 +6098,7 @@ mily:"Times New Roman",serif'><o:p></o:p></span></p>
 
 </html>
 
-------=_NextPart_01D5764F.DCE27420
+------=_NextPart_01D57650.4CCF4150
 Content-Location: file:///C:/38FF8D53/file1955.files/themedata.thmx
 Content-Transfer-Encoding: base64
 Content-Type: application/vnd.ms-officetheme
@@ -6133,7 +6164,7 @@ L3RoZW1lMS54bWxQSwECLQAUAAYACAAAACEADdGQn7YAAAAbAQAAJwAAAAAAAAAAAAAAAAC5CgAA
 dGhlbWUvdGhlbWUvX3JlbHMvdGhlbWVNYW5hZ2VyLnhtbC5yZWxzUEsFBgAAAAAFAAUAXQEAALQL
 AAAAAA==
 
-------=_NextPart_01D5764F.DCE27420
+------=_NextPart_01D57650.4CCF4150
 Content-Location: file:///C:/38FF8D53/file1955.files/colorschememapping.xml
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/xml
@@ -6143,7 +6174,7 @@ Content-Type: text/xml
  bg1=3D"lt1" tx1=3D"dk1" bg2=3D"lt2" tx2=3D"dk2" accent1=3D"accent1" accent=
 2=3D"accent2" accent3=3D"accent3" accent4=3D"accent4" accent5=3D"accent5" a=
 ccent6=3D"accent6" hlink=3D"hlink" folHlink=3D"folHlink"/>
-------=_NextPart_01D5764F.DCE27420
+------=_NextPart_01D57650.4CCF4150
 Content-Location: file:///C:/38FF8D53/file1955.files/header.htm
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/html; charset="gb2312"
@@ -6218,7 +6249,7 @@ r:footnote-continuation-separator'><![if !supportFootnotes]>
 
 </html>
 
-------=_NextPart_01D5764F.DCE27420
+------=_NextPart_01D57650.4CCF4150
 Content-Location: file:///C:/38FF8D53/file1955.files/filelist.xml
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/xml; charset="utf-8"
@@ -6230,4 +6261,4 @@ Content-Type: text/xml; charset="utf-8"
  <o:File HRef=3D"header.htm"/>
  <o:File HRef=3D"filelist.xml"/>
 </xml>
-------=_NextPart_01D5764F.DCE27420--
+------=_NextPart_01D57650.4CCF4150--
