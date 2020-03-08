@@ -1,4 +1,4 @@
-package com.lock.reentrantlock;
+package com.juc.lock.reentrantlock;
 
 /**
  * Created by GD on 2018/9/2.
