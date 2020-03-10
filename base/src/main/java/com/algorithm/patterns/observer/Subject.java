@@ -6,8 +6,6 @@ package com.algorithm.patterns.observer;
  * GitHub: https://github.com/GZPING
  */
 
-import sun.misc.FormattedFloatingDecimal;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,8 +1,5 @@
 package com.base;
 
-import com.sun.tools.javac.util.StringUtils;
-import org.junit.Test;
-
 import java.lang.reflect.Field;
 
 /**
@@ -33,7 +30,6 @@ public class IntegerArgs {
     }
 
 
-    @Test
     public void temp() {
         double fansCount = 1000;
         String fans= "200";
