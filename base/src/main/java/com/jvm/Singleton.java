@@ -12,13 +12,22 @@ package com.jvm;
  * @date :2020/3/9 : 22:26
  */
 public class Singleton {
+    /**
+     *  定义singleton 在x , y 之前，那么将先执行构造函数，x,y 都会先变成1 ;
+     *  此时在进行x,y 初始化，x=0,因y 没有设置初始值，则不会进行初始化
+     *  所以 x=0,y=1
+     */
+    private static Singleton singleton = new Singleton();
 
     private static int x = 0;
     private static int y ;
 
-    private static Singleton singleton = new Singleton();
-
-    public Singleton() {
+    /**
+     *  若改行放在x,y定义之后，x,y将先初始化，再执行x++,y++;
+     *  此时x=1,y=1
+     */
+    // private static Singleton singleton = new Singleton();
+    private Singleton() {
         x++;
         y++;
     }
@@ -29,6 +38,7 @@ public class Singleton {
 
     public static void main(String[] args) {
         Singleton singleton = Singleton.getSingleton();
+        System.out.println(singleton);
         System.out.println(singleton.x);
         System.out.println(singleton.y);
     }
