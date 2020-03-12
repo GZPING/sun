@@ -37,6 +37,5 @@ public class MyClassLoaderTest {
         System.out.println(hello);
         Method helloMethod = clazz.getMethod("welcome");
         System.out.println("result welcome : " + helloMethod.invoke(hello));
-
     }
 }
