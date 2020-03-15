@@ -18,10 +18,35 @@ import java.util.concurrent.CompletableFuture;
 public class CompletableFutureTest {
 
     public static void main(String[] args) {
+        // thenApply 将返回的数据继续执行
         String localhost = CompletableFuture.supplyAsync(() -> {
             System.out.println("localhost ");
             return 10;
         }).thenApply(t -> t + "8080").join();
         System.out.println(localhost);
+        // thenCombine 结合两个CompletableFuture 进行操作
+        String join = CompletableFuture.supplyAsync(() -> {
+            return "hello ";
+        }).thenCombine(CompletableFuture.supplyAsync(() -> {
+            return "world";
+        }), (s1, s2) -> s1 + " " + s2).join();
+        System.out.println(join);
+        //applyToEither 两个CompletionStage，谁计算的快，就用那个CompletionStage的结果进行下一步的处理
+        String result = CompletableFuture.supplyAsync(()->{
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return "Hi Boy";
+        }).applyToEither(CompletableFuture.supplyAsync(()->{
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return "Hi Girl";
+        }),(s)->{return s;}).join();
+        System.out.println(result);
     }
 }
