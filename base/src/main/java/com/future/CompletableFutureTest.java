@@ -48,5 +48,22 @@ public class CompletableFutureTest {
             return "Hi Girl";
         }),(s)->{return s;}).join();
         System.out.println(result);
+        // 5、运行时出现了异常，可以通过exceptionally进行补偿
+        // public CompletionStage<T> exceptionally(Function<Throwable, ? extends T> fn);
+        String result2 = CompletableFuture.supplyAsync(()->{
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if(true) {
+                throw new RuntimeException("exception test!");
+            }
+            return "Hi Boy";
+        }).exceptionally(e->{
+            System.out.println(e.getMessage());
+            return "Hello world!";
+        }).join();
+        System.out.println(result2);
     }
 }
