@@ -1,6 +1,5 @@
 package com.thread.valotilevariable;
 
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 /**
